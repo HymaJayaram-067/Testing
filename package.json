@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-mutation-testing",
+  "version": "1.0.0",
+  "description": "E-Commerce Shopping Cart System with Mutation Testing - IIIT Bangalore CSE 731 Project",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha 'tests/**/*.test.js' --timeout 10000",
+    "test:coverage": "mocha 'tests/**/*.test.js' --timeout 10000",
+    "stryker": "stryker run",
+    "stryker:dry-run": "stryker run --dryRunOnly"
+  },
+  "keywords": [
+    "mutation-testing",
+    "stryker",
+    "mocha",
+    "testing",
+    "ecommerce"
+  ],
+  "author": "IIIT Bangalore Students",
+  "license": "MIT",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.4.0",
+    "@stryker-mutator/mocha-runner": "^9.4.0",
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0"
+  }
+}

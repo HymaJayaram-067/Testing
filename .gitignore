@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Coverage and reports
+coverage/
+.nyc_output/
+reports/
+*.html
+mutation-report.html
+mutation-report.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Stryker temporary files
+.stryker-tmp/
+stryker.log
+
+# Environment
+.env
+.env.local
+.env.*.local
