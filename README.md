@@ -1,9 +1,7 @@
-"# IIIT Bangalore - CSE 731: Software Testing Project
 
 ## Mutation Testing Project - E-Commerce Shopping Cart System
 
-**Course:** CSE 731: Software Testing  
-**Term:** I 2025-'26  
+**Course:**: Software Testing  
 **Project Type:** Mutation Testing
 
 ---
