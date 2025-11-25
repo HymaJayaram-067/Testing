@@ -45,8 +45,8 @@ This project implements **Mutation Testing** for an E-Commerce Shopping Cart Sys
 ## Team Members and Contributions
 
 ### Team Member 1
-**Name:** [Student Name 1]  
-**Roll Number:** [Roll Number 1]
+Name: Hymavathi Jayaramappa[MT2024067] 
+Roll Number: Thouseef Ahmed Syed[MT2024]
 
 **Contributions:**
 - Designed and implemented Product and ProductCatalog modules
@@ -271,7 +271,7 @@ npm run stryker:dry-run
 ## Mutation Testing Results
 
 ### Expected Mutation Score
-- **Target:** 80%+ mutation score
+
 - **Killed Mutants:** Tests designed to strongly kill mutants
 - **Equivalent Mutants:** Some mutants may be equivalent (no behavioral change)
 
@@ -296,28 +296,14 @@ After running mutation testing, reports are generated in:
 
 This project used AI tools for the following purposes:
 
-1. **Code Generation Assistance**
-   - Tool: GitHub Copilot / Claude
-   - Purpose: Scaffolding initial module structure
-   - Usage: Generating boilerplate code for classes and methods
-
-2. **Test Case Generation**
-   - Tool: GitHub Copilot / Claude
-   - Purpose: Generating comprehensive test cases
-   - Usage: Creating boundary value tests and edge cases
 
 3. **Documentation**
-   - Tool: GitHub Copilot / Claude
-   - Purpose: Generating JSDoc comments and README
-   - Usage: Creating consistent documentation format
-
-**Note:** All AI-generated code was reviewed and modified to ensure correctness and completeness. The test design strategy and mutation operator selection were done by the team members.
+   - Tool: GitHub Copilot / Chatgpt
+   - Purpose: Generating JSDoc comments and took scripting assistance to write test cases
 
 ---
 
 ## Repository Structure
-
-```
 Testing/
 ├── src/                    # Source code
 │   ├── index.js           # Main entry point
@@ -338,17 +324,4 @@ Testing/
 ├── stryker.config.js      # Mutation testing config
 ├── .gitignore            # Git ignore file
 └── README.md             # This file
-```
 
----
-
-## License
-
-This project is created for academic purposes as part of IIIT Bangalore CSE 731 course work.
-
----
-
-## Contact
-
-For questions or clarifications, please contact the course instructor or TAs.
-"
