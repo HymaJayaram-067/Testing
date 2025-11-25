@@ -44,7 +44,7 @@ This project implements **Mutation Testing** for an E-Commerce Shopping Cart Sys
 
 ### Team Member 1
 Name: Hymavathi Jayaramappa[MT2024067] 
-Roll Number: Thouseef Ahmed Syed[MT2024]
+
 
 **Contributions:**
 - Designed and implemented Product and ProductCatalog modules
@@ -54,8 +54,7 @@ Roll Number: Thouseef Ahmed Syed[MT2024]
 - Documented mutation operators at unit level
 
 ### Team Member 2
-**Name:** [Student Name 2]  
-**Roll Number:** [Roll Number 2]
+**Name: Thouseef Ahmed Syed[MT2024]
 
 **Contributions:**
 - Designed and implemented Order and OrderManager modules
