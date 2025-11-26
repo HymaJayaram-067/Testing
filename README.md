@@ -33,9 +33,9 @@ This project implements **Mutation Testing** for an E-Commerce Shopping Cart Sys
 - Discount and Promotion System (coupons, bulk discounts)
 
 ### Code Statistics
-- **Total Lines of Code:** ~1,500+ lines (excluding comments and tests)
-- **Number of Modules:** 6 main modules
-- **Number of Test Cases:** 552 unit and integration tests
+- **Total Lines of Code:** ~5,000+ lines (excluding comments and tests)
+- **Number of Modules:** 7 main modules
+- **Number of Test Cases:** 711 unit and integration tests
 - **Test Coverage:** Comprehensive coverage for mutation testing
 
 ---
@@ -141,12 +141,13 @@ The test cases are designed to **strongly kill mutants** by ensuring:
 
 ```
 tests/
-├── product.test.js     # 150+ tests for Product module
-├── cart.test.js        # 100+ tests for Cart module
-├── order.test.js       # 80+ tests for Order module
-├── user.test.js        # 100+ tests for User module
-├── inventory.test.js   # 70+ tests for Inventory module
-└── discount.test.js    # 50+ tests for Discount module
+├── product.test.js     # 113 tests for Product module
+├── cart.test.js        # 94 tests for Cart module
+├── order.test.js       # 135 tests for Order module
+├── user.test.js        # 89 tests for User module
+├── inventory.test.js   # 101 tests for Inventory module
+├── discount.test.js    # 100 tests for Discount module
+└── index.test.js       # 85 tests for Integration module
 ```
 
 ### Test Categories
@@ -311,12 +312,14 @@ Testing/
 │   ├── inventory.js       # Inventory management
 │   └── discount.js        # Discounts and promotions
 ├── tests/                  # Test files
-│   ├── product.test.js    # Product tests
-│   ├── cart.test.js       # Cart tests
-│   ├── order.test.js      # Order tests
-│   ├── user.test.js       # User tests
-│   ├── inventory.test.js  # Inventory tests
-│   └── discount.test.js   # Discount tests
+│   ├── product.test.js    # Product tests (113)
+│   ├── cart.test.js       # Cart tests (94)
+│   ├── order.test.js      # Order tests (135)
+│   ├── user.test.js       # User tests (89)
+│   ├── inventory.test.js  # Inventory tests (101)
+│   ├── discount.test.js   # Discount tests (100)
+│   └── index.test.js      # Integration tests (85)
+├── demo.js               # Demo script to run the system
 ├── package.json           # Dependencies and scripts
 ├── stryker.config.js      # Mutation testing config
 ├── .gitignore            # Git ignore file
